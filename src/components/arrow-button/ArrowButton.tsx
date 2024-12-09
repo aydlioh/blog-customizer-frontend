@@ -14,13 +14,8 @@ export const ArrowButton = () => {
 			role='button'
 			aria-label='Открыть/Закрыть форму параметров статьи'
 			tabIndex={0}
-			className={styles.container}
-		>
-			<img
-				src={arrow}
-				alt='иконка стрелочки'
-				className={styles.arrow}
-			/>
+			className={styles.container}>
+			<img src={arrow} alt='иконка стрелочки' className={styles.arrow} />
 		</div>
 	);
 };
