@@ -9,6 +9,15 @@ module.exports = {
 		react: {
 			version: 'detect',
 		},
+		'import/resolver': {
+			typescript: {
+				project: './tsconfig.json',
+			},
+			node: {
+				paths: ['./'],
+				extensions: ['.js', '.jsx', '.ts', '.tsx'],
+			},
+		},
 	},
 	extends: [
 		'plugin:@typescript-eslint/recommended',
